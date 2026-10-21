@@ -122,8 +122,13 @@ app.get('/api/health', (req, res) => {
 });
 
 // Direct HTTP Redirection Endpoint (/r/:code)
-app.get('/r/:code', async (req, res) => {
-  const code = (req.params.code || '').trim().toLowerCase();
+app.get(['/r/:code', '/r/:code/'], async (req, res) => {
+  let code = (req.params.code || req.query.code || '').trim().toLowerCase();
+  if (!code && req.url) {
+    const clean = req.url.split('?')[0];
+    const match = clean.match(/\/r\/([a-zA-Z0-9-_]+)/);
+    if (match) code = match[1].toLowerCase();
+  }
   const item = await getShortLink(code);
 
   if (!item) {

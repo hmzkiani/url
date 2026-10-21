@@ -7,7 +7,7 @@
     },
     {
       "source": "/r/:code",
-      "destination": "/api/r.js?code=:code"
+      "destination": "/api/index.js"
     },
     {
       "source": "/r",
