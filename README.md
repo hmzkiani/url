@@ -162,6 +162,28 @@ To explicitly set a canonical production domain (especially if using custom doma
 
 ---
 
+## ⚡ Vercel Deployment & Serverless Architecture Guide
+
+The application is fully pre-configured for **Vercel** with dedicated Serverless Functions and real HTTP 302 redirections.
+
+### 1. Architecture on Vercel
+- **Frontend SPA**: Vite builds static assets to `dist/`, served globally via Vercel Edge CDN.
+- **Serverless API (`/api/*`)**: Handled by [`api/index.js`](file:///api/index.js), running Express with SSRF protection, live SEO crawler, redirect checker, and link shortener API.
+- **Direct HTTP Redirection (`/r/:code`)**: Handled by [`api/r.js`](file:///api/r.js), executing real **HTTP 302 redirects** directly at the serverless level with zero client delay, returning a proper **404 response** for non-existent codes.
+- **SPA Rewrites**: Defined in [`vercel.json`](file:///vercel.json) ensuring all React Router pages (`/url-shortener`, `/seo-analyzer`, `/blog/*`) load seamlessly without 404s.
+
+### 2. Persistent Storage on Vercel
+- **Initial & Local**: Seed links and existing shortcodes (including `leh40i`) load from [`server/shortlinks.json`](file:///server/shortlinks.json).
+- **Ephemeral `/tmp`**: Newly generated links are written to `/tmp/seoflow_shortlinks.json` and memory cache.
+- **Persistent Cloud Database (Recommended for Multi-Instance Production)**:
+  Connect **Vercel KV** or **Upstash Redis** in your Vercel Project (Project &rarr; Storage &rarr; Create KV).
+  The storage adapter automatically detects:
+  - `KV_REST_API_URL` & `KV_REST_API_TOKEN`
+  - or `UPSTASH_REDIS_REST_URL` & `UPSTASH_REDIS_REST_TOKEN`
+  When set, all short links and click metrics persist across lambda cold starts.
+
+---
+
 ## 🚀 Netlify Deployment Guide
 
 This repository is pre-configured for seamless Netlify deployment with zero manual routing setup needed.
