@@ -7,7 +7,6 @@ import { getShortLink, saveShortLink, recordClick } from './storage.js';
 const app = express();
 
 app.use(cors());
-app.use(express.json());
 
 // Vercel Serverless rewrite path normalizer:
 // If Vercel rewrites /api/... to /api/index.js, restore the original URL so Express routes match correctly
@@ -17,6 +16,26 @@ app.use((req, res, next) => {
     req.url = matchedPath;
   }
   next();
+});
+
+// Safe body parser: respects Vercel pre-parsed body or falls back to express.json()
+app.use((req, res, next) => {
+  if (req.body !== undefined && req.body !== null) {
+    if (typeof req.body === 'string') {
+      try {
+        req.body = JSON.parse(req.body);
+      } catch (e) {
+        // ignore
+      }
+    }
+    return next();
+  }
+  return express.json()(req, res, (err) => {
+    if (err) {
+      return res.status(400).json({ error: 'Malformed JSON payload: ' + err.message });
+    }
+    next();
+  });
 });
 
 // SSRF Protection Helper
