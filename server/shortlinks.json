@@ -1,10 +1,4 @@
 {
-  "leh40i": {
-    "code": "leh40i",
-    "destination": "https://vercel.com/",
-    "createdAt": "2026-10-21T18:45:00.000Z",
-    "clicks": 0
-  },
   "0ivjyi": {
     "code": "0ivjyi",
     "destination": "https://example.com/test-article",
@@ -122,5 +116,12 @@
     "createdAt": "2026-10-21T18:27:57.772Z",
     "clicks": 1,
     "lastClickedAt": "2026-10-21T18:28:08.322Z"
+  },
+  "tamph6": {
+    "code": "tamph6",
+    "destination": "https://react.dev/",
+    "createdAt": "2026-10-21T19:36:38.323Z",
+    "clicks": 2,
+    "lastClickedAt": "2026-10-21T19:37:12.030Z"
   }
 }
