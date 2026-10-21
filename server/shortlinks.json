@@ -1,0 +1,120 @@
+{
+  "0ivjyi": {
+    "code": "0ivjyi",
+    "destination": "https://example.com/test-article",
+    "createdAt": "2026-10-21T10:15:06.762Z",
+    "clicks": 0
+  },
+  "2elfva": {
+    "code": "2elfva",
+    "destination": "https://antigravity.google/auth-success?app=antigravity-ide",
+    "createdAt": "2026-10-21T12:57:56.742Z",
+    "clicks": 86,
+    "lastClickedAt": "2026-10-21T12:59:11.134Z"
+  },
+  "audit-test-mvi4fk79": {
+    "code": "audit-test-mvi4fk79",
+    "destination": "https://example.com/test-article",
+    "createdAt": "2026-10-21T13:01:38.664Z",
+    "clicks": 1,
+    "lastClickedAt": "2026-10-21T13:01:38.679Z"
+  },
+  "w24eg5": {
+    "code": "w24eg5",
+    "destination": "https://example.com/test-streamlined-shortener",
+    "createdAt": "2026-10-21T13:20:10.214Z",
+    "clicks": 0
+  },
+  "tvszqy": {
+    "code": "tvszqy",
+    "destination": "https://aistudio.google.com/apps/bundled/neon_snake_3d?showPreview=true&showAssistant=true&fullscreenApplet=true",
+    "createdAt": "2026-10-21T14:54:55.426Z",
+    "clicks": 22,
+    "lastClickedAt": "2026-10-21T14:55:34.690Z"
+  },
+  "woh9gy": {
+    "code": "woh9gy",
+    "destination": "https://google.com/",
+    "createdAt": "2026-10-21T14:59:15.750Z",
+    "clicks": 0
+  },
+  "5t3g0u": {
+    "code": "5t3g0u",
+    "destination": "https://example.com/verified-target",
+    "createdAt": "2026-10-21T15:52:43.402Z",
+    "clicks": 3,
+    "lastClickedAt": "2026-10-21T16:35:24.976Z"
+  },
+  "audit-test-mviakdga": {
+    "code": "audit-test-mviakdga",
+    "destination": "https://example.com/test-article",
+    "createdAt": "2026-10-21T15:53:20.408Z",
+    "clicks": 1,
+    "lastClickedAt": "2026-10-21T15:53:20.412Z"
+  },
+  "dfxj1p": {
+    "code": "dfxj1p",
+    "destination": "http://127.0.0.1:8080/admin",
+    "createdAt": "2026-10-21T15:53:20.415Z",
+    "clicks": 0
+  },
+  "audit-test-mviavomu": {
+    "code": "audit-test-mviavomu",
+    "destination": "https://example.com/test-article",
+    "createdAt": "2026-10-21T16:02:08.133Z",
+    "clicks": 1,
+    "lastClickedAt": "2026-10-21T16:02:08.139Z"
+  },
+  "axbhzw": {
+    "code": "axbhzw",
+    "destination": "https://aistudio.google.com/apps/bundled/neon_snake_3d?showPreview=true&showAssistant=true&fullscreenApplet=true",
+    "createdAt": "2026-10-21T16:47:50.127Z",
+    "clicks": 2,
+    "lastClickedAt": "2026-10-21T16:48:19.107Z"
+  },
+  "ec4nfq": {
+    "code": "ec4nfq",
+    "destination": "https://news.ycombinator.com/",
+    "createdAt": "2026-10-21T16:54:10.987Z",
+    "clicks": 0
+  },
+  "owrj3g": {
+    "code": "owrj3g",
+    "destination": "https://auth.openai.com/log-in-or-create-account",
+    "createdAt": "2026-10-21T16:58:13.409Z",
+    "clicks": 0
+  },
+  "1jf9nu": {
+    "code": "1jf9nu",
+    "destination": "https://news.ycombinator.com/",
+    "createdAt": "2026-10-21T17:04:33.617Z",
+    "clicks": 0
+  },
+  "vhy8p9": {
+    "code": "vhy8p9",
+    "destination": "https://news.ycombinator.com/",
+    "createdAt": "2026-10-21T17:12:36.523Z",
+    "clicks": 3,
+    "lastClickedAt": "2026-10-21T17:12:36.652Z"
+  },
+  "h08mka": {
+    "code": "h08mka",
+    "destination": "https://example.com/test-article",
+    "createdAt": "2026-10-21T17:40:23.164Z",
+    "clicks": 1,
+    "lastClickedAt": "2026-10-21T18:28:13.992Z"
+  },
+  "53wnba": {
+    "code": "53wnba",
+    "destination": "https://news.ycombinator.com/",
+    "createdAt": "2026-10-21T18:25:46.778Z",
+    "clicks": 0
+  },
+  "7m2oza": {
+    "code": "7m2oza",
+    "destination": "https://antigravity.google/auth-success?app=antigravity-ide",
+    "createdAt": "2026-10-21T18:27:57.772Z",
+    "clicks": 1,
+    "lastClickedAt": "2026-10-21T18:28:08.322Z"
+  }
+}

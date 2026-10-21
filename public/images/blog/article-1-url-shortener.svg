@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#064e3b" />
+      <stop offset="100%" stop-color="#0f1713" />
+    </linearGradient>
+    <linearGradient id="card" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#15241c" />
+      <stop offset="100%" stop-color="#0d1813" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)" />
+  <circle cx="600" cy="315" r="380" fill="#047857" opacity="0.15" />
+  
+  <rect x="250" y="140" width="700" height="350" rx="24" fill="url(#card)" stroke="#10b981" stroke-width="2" stroke-opacity="0.3" />
+  
+  <!-- Link Icon Graphic -->
+  <g transform="translate(600, 260) scale(2.5)" fill="none" stroke="#34d399" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M-10 -5 L-20 -5 A 10 10 0 0 0 -20 15 L-10 15" />
+    <path d="M10 -5 L20 -5 A 10 10 0 0 1 20 15 L10 15" />
+    <line x1="-12" y1="5" x2="12" y2="5" />
+  </g>
+  
+  <text x="600" y="380" fill="#f5f5f4" font-family="system-ui, -apple-system, sans-serif" font-size="34" font-weight="700" text-anchor="middle" letter-spacing="-0.5">
+    The Complete Guide to URL Shorteners
+  </text>
+  <text x="600" y="420" fill="#a7f3d0" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="500" text-anchor="middle">
+    SEOFlow Tools • Image 1 (Pending User Upload)
+  </text>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#064e3b" />
+      <stop offset="100%" stop-color="#0f1713" />
+    </linearGradient>
+    <linearGradient id="card6" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#15241c" />
+      <stop offset="100%" stop-color="#0d1813" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg6)" />
+  <circle cx="600" cy="315" r="380" fill="#047857" opacity="0.15" />
+  <rect x="250" y="140" width="700" height="350" rx="24" fill="url(#card6)" stroke="#10b981" stroke-width="2" stroke-opacity="0.3" />
+  
+  <g transform="translate(600, 260) scale(2.2)" fill="none" stroke="#34d399" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="-6" y="-12" width="12" height="8" rx="2" />
+    <rect x="-16" y="6" width="12" height="8" rx="2" />
+    <rect x="4" y="6" width="12" height="8" rx="2" />
+    <path d="M0 -4 V2 M-10 2 H10 V6 M-10 2 V6" />
+  </g>
+  
+  <text x="600" y="380" fill="#f5f5f4" font-family="system-ui, -apple-system, sans-serif" font-size="34" font-weight="700" text-anchor="middle" letter-spacing="-0.5">
+    XML Sitemaps: Practical Implementation
+  </text>
+  <text x="600" y="420" fill="#a7f3d0" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="500" text-anchor="middle">
+    SEOFlow Tools • Image 6 (Pending User Upload)
+  </text>
+</svg>

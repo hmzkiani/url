@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SEOFlow Tools - Free SEO Toolkit & URL Shortener</title>
+    <meta name="description" content="Analyze your website, optimize content, create short links, and simplify your SEO workflow with 100% free online tools. No API keys or paid subscriptions required." />
+    
+    <!-- Preconnect & Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Theme anti-flash script -->
+    <script>
+      (function() {
+        try {
+          const theme = localStorage.getItem('seoflow_theme') || 'system';
+          const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          if (theme === 'dark' || (theme === 'system' && prefersDark)) {
+            document.documentElement.classList.add('dark');
+          } else {
+            document.documentElement.classList.remove('dark');
+          }
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body class="bg-[#FAF9F5] text-stone-900 dark:bg-[#0D1310] dark:text-stone-100 min-h-screen transition-colors duration-200">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

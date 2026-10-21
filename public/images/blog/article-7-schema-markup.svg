@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg7" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#064e3b" />
+      <stop offset="100%" stop-color="#0f1713" />
+    </linearGradient>
+    <linearGradient id="card7" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#15241c" />
+      <stop offset="100%" stop-color="#0d1813" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg7)" />
+  <circle cx="600" cy="315" r="380" fill="#047857" opacity="0.15" />
+  <rect x="250" y="140" width="700" height="350" rx="24" fill="url(#card7)" stroke="#10b981" stroke-width="2" stroke-opacity="0.3" />
+  
+  <g transform="translate(600, 260) scale(2.2)" fill="none" stroke="#34d399" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M-8 -10 L-16 0 L-8 10" />
+    <path d="M8 -10 L16 0 L8 10" />
+    <line x1="4" y1="-12" x2="-4" y2="12" />
+  </g>
+  
+  <text x="600" y="380" fill="#f5f5f4" font-family="system-ui, -apple-system, sans-serif" font-size="34" font-weight="700" text-anchor="middle" letter-spacing="-0.5">
+    Schema Markup &amp; Structured Data Guide
+  </text>
+  <text x="600" y="420" fill="#a7f3d0" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="500" text-anchor="middle">
+    SEOFlow Tools • Image 7 (Pending User Upload)
+  </text>
+</svg>
